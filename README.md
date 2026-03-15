@@ -42,7 +42,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER
+git clone https://github.com/botifyx-bots/WAIFU-HUSBANDO-CATCHER
 cd WAIFU-HUSBANDO-CATCHER
 
 # 2. Install dependencies
