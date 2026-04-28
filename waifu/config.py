@@ -45,8 +45,10 @@ class Config:
         3: "🟡 Legendary",
         4: "🟢 Medium",
         5: "💮 Special Edition",
+        6: "🔞 Extreme",
     }
 
     @classmethod
     def all_sudo(cls) -> set[int]:
         return {cls.OWNER_ID, *cls.sudo_users}
+        
