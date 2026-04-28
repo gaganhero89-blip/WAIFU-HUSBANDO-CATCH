@@ -9,10 +9,18 @@ from waifu import application, BOT_USERNAME, GROUP_ID, PHOTO_URL, SUPPORT_CHAT, 
 from waifu import pm_users as _pm
 
 WELCOME = (
-    "👋 <b>Welcome to Waifu Catcher!</b>\n\n"
-    "I drop random anime characters in groups.\n"
-    "Use <code>/guess</code> to claim them and build your harem!\n\n"
-    "📌 Add me to a group to start collecting!"
+    "✨ <b>Welcome to WaifuHub Verse!</b> ✨\n\n"
+    "🌸 <i>Where every message brings a new waifu...</i>\n\n"
+    "⚡ <b>How to Play:</b>\n"
+    "┣ Characters drop randomly in groups\n"
+    "┣ Type /guess to claim them\n"
+    "┣ Build your ultimate harem collection\n"
+    "┗ Flex on everyone with rare waifus!\n\n"
+    "💎 <b>Rarities:</b>\n"
+    "┣ ⚪ Common  🟢 Medium  🟣 Rare\n"
+    "┣ 🟡 Legendary  💮 Special Edition\n"
+    "┗ 🔞 Extreme  <i>(rarest of all!)</i>\n\n"
+    "🎴 <i>Add me to your group and let the hunt begin!</i> 🎴"
 )
 
 HELP = (
@@ -21,6 +29,7 @@ HELP = (
     "/guess — Claim the active character\n"
     "/harem — Your collection (paginated)\n"
     "/fav [id] — Set favourite character\n"
+    "/check [id] — Check character details by ID\n"
     "/profile — Your stats & level\n\n"
     "<b>💰 Economy</b>\n"
     "/daily — Claim daily coins\n"
@@ -29,6 +38,7 @@ HELP = (
     "/sell [id] [price] — List a character\n"
     "/buy [listing_id] — Buy from market\n\n"
     "<b>⚔️ Social</b>\n"
+    "/ship @user — Find love compatibility 💕\n"
     "/trade [char_id] [their_char_id] — Trade (reply to user)\n"
     "/gift [char_id] — Gift a character (reply to user)\n"
     "/duel — Challenge someone to a duel (reply to user)\n\n"
